@@ -1,0 +1,83 @@
+/* Login.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #7ef2ff;
+}
+
+.login-box {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.email,
+.password {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.email_label,
+.password_label {
+  width: 120px;
+}
+
+.email_input,
+.password_input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #3e7eff;
+  border-radius: 5px;
+}
+
+.email_input:focus,
+.password_input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0, 123, 255, 0.5);
+}
+
+.terms {
+  margin: 10px 0;
+}
+
+.login-button {
+  text-align: center; /* Center the login button */
+  margin-top: 20px;
+}
+
+.ui.message {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.ui.message.positive {
+  background-color: #5cb85c;
+  color: #fff;
+}
+
+.ui.message.negative {
+  background-color: #d9534f;
+  color: #fff;
+}
+
+a {
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}

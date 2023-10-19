@@ -1,0 +1,66 @@
+/* Header.css */
+
+/* New header container styles */
+.new-header {
+  background: #00504a; /* New background color */
+  color: #000000; /* New text color */
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  border-radius: 10px; /* Add rounded corners */
+}
+
+.deakin {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.deakin p {
+  font-size: 24px;
+  font-weight: bold;
+  margin: auto;
+  margin-right: 15px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-grow: 1;
+  margin-left: auto;
+}
+
+/* New search input styles */
+.s {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  margin-right: 15px; /* Increased margin for separation */
+  padding: 10px 20px; /* Adjusted padding for spacing */
+  border-radius: 5px; /* Rounded corners for the search bar */
+  background-color: #008d9f; /* New background color */
+}
+
+.s .ui.input {
+  width: 100%;
+}
+
+.s .ui.input > input {
+  width: 100%;
+  padding: 10px;
+}
+
+/* New button styles */
+.button .ui.button.custom-button {
+  margin-left: 15px; /* Increased margin for separation */
+  padding: 10px 20px; /* Adjusted padding for buttons */
+  background-color: #1500ff; /* New background color for buttons */
+  color: white; /* New text color for buttons */
+  border-radius: 5px; /* Rounded corners for the buttons */
+}

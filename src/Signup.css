@@ -1,0 +1,93 @@
+/* Signup.css */
+
+.signup-box {
+  padding: 20px;
+  background-color: #7ef2ff; /* Light blue background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.signup-box:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.n,
+.N_label,
+.name_input,
+.E_input,
+.p_input,
+.c_p_input {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.N_label {
+  width: 150px;
+}
+
+.n input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #3e7eff; /* Similar to the Login component */
+  border-radius: 5px;
+}
+
+.n input[type="text"] {
+  background-color: #f7f7f7;
+}
+
+.checkbox {
+  margin: 10px 0;
+}
+
+.create-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.create-button button {
+  background-color: #007bff; /* Blue button background color */
+  color: #fff; /* White button text color */
+  transition: background-color 0.3s;
+}
+
+.create-button button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.ui.message {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.ui.message.positive {
+  background-color: #5cb85c; /* Green success message */
+  color: #fff;
+}
+
+.ui.message.negative {
+  background-color: #d9534f; /* Red error message */
+  color: #fff;
+}
+
+a {
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  color: #007bff; /* Blue link color */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3; /* Darker blue on hover */
+}
